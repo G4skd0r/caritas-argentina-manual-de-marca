@@ -44,8 +44,8 @@ La cruz de Cáritas es reconocida internacionalmente como símbolo de la red Car
 
 | Elemento | Color | Hex |
 |---|---|---|
-| Cruz / símbolo | Rojo institucional | `#CF2E2E` |
-| Nombre organización | Rojo institucional o Azul | `#CF2E2E` / `#004684` |
+| Cruz / símbolo | Rojo institucional | `#AE3336` |
+| Nombre organización | Rojo institucional o Azul | `#AE3336` / `#004684` |
 | Versión negativa | Blanco | `#FFFFFF` |
 
 ---

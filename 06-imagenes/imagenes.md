@@ -59,7 +59,7 @@ Cáritas Argentina puede usar íconos para representar sus programas y áreas de
 
 **Estilo recomendado:**
 - Line icons o íconos sólidos simples
-- Color: rojo `#CF2E2E` o azul `#004684`
+- Color: rojo `#AE3336` o azul `#004684`
 - Trazo uniforme, sin decoración
 - Tamaño mínimo funcional: 24×24px
 

@@ -62,7 +62,7 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 Font: Montserrat SemiBold (600)
 Size: 40–56px (desktop) / 28–36px (mobile)
 Case: Sentence case o MAYÚSCULAS según contexto
-Color: #FFFFFF (sobre rojo/azul) o #CF2E2E (sobre blanco)
+Color: #FFFFFF (sobre rojo/azul) o #AE3336 (sobre blanco)
 Ejemplo: "70 años alentando la esperanza"
 ```
 
@@ -70,7 +70,7 @@ Ejemplo: "70 años alentando la esperanza"
 ```
 Font: Montserrat SemiBold (600)
 Size: 28–36px
-Color: #CF2E2E o #004684
+Color: #AE3336 o #004684
 Ejemplo: "Nuestros programas" / "¿Cómo ayudar?"
 ```
 

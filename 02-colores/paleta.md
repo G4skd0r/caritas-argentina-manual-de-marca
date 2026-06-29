@@ -2,20 +2,21 @@
 
 ## Colores primarios
 
-Estos tres colores conforman la identidad visual de Cáritas Argentina y deben usarse en todas las comunicaciones institucionales.
+Estos colores conforman la identidad visual de Cáritas Argentina y deben usarse en todas las comunicaciones institucionales.
 
-| Nombre | Hex | RGB | Pantone ref. | Uso |
-|---|---|---|---|---|
-| **Rojo Cáritas** | `#CF2E2E` | `207, 46, 46` | ~485 C | Color principal, logo, CTAs, títulos destacados |
-| **Azul Institucional** | `#004684` | `0, 70, 132` | ~286 C | Secundario, fondos, textos destacados, links |
-| **Blanco** | `#FFFFFF` | `255, 255, 255` | — | Fondos, texto sobre colores, versión negativa del logo |
+| Nombre | Hex | RGB | Uso |
+|---|---|---|---|
+| **Rojo Cáritas** | `#AE3336` | `174, 51, 54` | Color principal, logo, CTAs, fondos de sección, títulos destacados |
+| **Azul Institucional** | `#004684` | `0, 70, 132` | Secundario, fondos, textos destacados, links |
+| **Azul Navy** | `#0C2868` | `12, 40, 104` | Fondos oscuros, encabezados, footer |
+| **Blanco** | `#FFFFFF` | `255, 255, 255` | Fondos, texto sobre colores, versión negativa del logo |
 
 ### Vista de swatches
 
 ```
- ████████   ████████   ████████
- #CF2E2E    #004684    #FFFFFF
- Rojo       Azul       Blanco
+ ████████   ████████   ████████   ████████
+ #AE3336    #004684    #0C2868    #FFFFFF
+ Rojo       Azul       Navy       Blanco
  Cáritas    Inst.
 ```
 
@@ -36,9 +37,8 @@ Para uso en infografías, categorización de programas y materiales de comunicac
 
 | Nombre | Hex | Uso sugerido |
 |---|---|---|
-| Rojo claro | `#E8574A` | Hover, versiones light del rojo |
-| Azul claro | `#1A6BAA` | Versiones más claras del azul institucional |
-| Gris oscuro | `#333333` | Texto de cuerpo |
+| Verde WhatsApp | `#25D366` | Botón de contacto por WhatsApp |
+| Gris oscuro | `#32373C` | Texto de cuerpo, footer |
 | Gris medio | `#666666` | Texto secundario, captions |
 | Gris claro | `#F4F4F4` | Fondos de sección, separadores |
 | Negro | `#000000` | Uso tipográfico formal |
@@ -49,9 +49,9 @@ Para uso en infografías, categorización de programas y materiales de comunicac
 
 | Fondo | Texto | Uso |
 |---|---|---|
-| `#CF2E2E` | `#FFFFFF` | Hero, CTA principal, encabezados |
+| `#AE3336` | `#FFFFFF` | Hero, CTA principal, encabezados |
 | `#004684` | `#FFFFFF` | Bloques de contenido, footer |
-| `#FFFFFF` | `#CF2E2E` | Títulos sobre fondo blanco |
+| `#FFFFFF` | `#AE3336` | Títulos sobre fondo blanco |
 | `#FFFFFF` | `#333333` | Cuerpo de texto general |
 | `#F4F4F4` | `#333333` | Secciones de fondo suave |
 
@@ -59,24 +59,24 @@ Para uso en infografías, categorización de programas y materiales de comunicac
 
 ## Accesibilidad
 
-- Rojo `#CF2E2E` sobre blanco: ratio de contraste ~4.5:1 — cumple WCAG AA para texto grande
+- Rojo `#AE3336` sobre blanco: ratio de contraste ~4.5:1 — cumple WCAG AA para texto grande
 - Azul `#004684` sobre blanco: ratio ~7:1 — cumple WCAG AAA
 - Texto oscuro `#333333` sobre blanco: ratio ~12:1 — óptimo
 
 ---
 
-## Variables CSS sugeridas
+## Variables CSS (del HTML del sitio)
 
 ```css
 :root {
-  --c-red: #CF2E2E;
-  --c-blue: #004684;
+  --c-red: #AE3336;       /* Rojo Cáritas — principal */
+  --c-blue: #004684;      /* Azul Institucional */
+  --c-navy: #0C2868;      /* Azul Navy — fondos oscuros */
   --c-white: #FFFFFF;
 
-  --c-red-light: #E8574A;
-  --c-blue-light: #1A6BAA;
-
-  --c-text: #333333;
+  /* Soporte */
+  --c-whatsapp: #25D366;
+  --c-text: #32373C;
   --c-text-secondary: #666666;
   --c-bg-light: #F4F4F4;
   --c-black: #000000;
